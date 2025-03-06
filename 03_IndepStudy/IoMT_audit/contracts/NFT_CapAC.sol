@@ -1,5 +1,11 @@
 // SPDX-License-Identifier: MIT
+import hashlib 
 
+filename = "Filepath toimage file.png"
+with open(filename, "rb") as f:
+    bytes = f.read() 
+    readable_hash = hashlib.sha256.sha256(bytes).hexdigest();
+    print(readable_hash)
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
