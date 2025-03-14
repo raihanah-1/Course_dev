@@ -94,3 +94,9 @@ if __name__ == '__main__':
     data = ['data1', 'data2', 'data3', 'data4']
     merkle_tree = MerkleTree(data)
     print(f"Merkle Root: {merkle_tree.get_root()}")
+
+
+#calculate latency
+start_time = time.time()
+    end_time = time.time()-start_time
+print(end_time)
