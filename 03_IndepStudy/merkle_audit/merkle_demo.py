@@ -68,7 +68,7 @@ if __name__ == '__main__':
   if(test_func == 1):
     ## ------------ set date range ----------------
     start_date = date(2025, 2, 14)
-    end_date = date(2025, 3, 05)
+    end_date = date(2025, 2, 27)
 
     ## this ls_date store days that are used to load json file.
     ls_date = []
