@@ -98,5 +98,5 @@ if __name__ == '__main__':
 
 #calculate latency
 start_time = time.time()
-    end_time = time.time()-start_time
+end_time = time.time()-start_time
 print(end_time)
